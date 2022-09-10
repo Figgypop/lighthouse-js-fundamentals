@@ -1,4 +1,4 @@
-//Exercise 1 - Basic conditionals (if)
+//Exercise 1 -  conditionals (if)
 const raining = true;
 
 const cold = true;
@@ -13,7 +13,7 @@ if (cold) {
 
 
 
-// Exercise 2 - Basic conditionals (else if)
+// Exercise 2 -  conditionals (else if)
 const temperature = 12;
 
 if(temperature < 0) {
@@ -25,4 +25,28 @@ if(temperature < 0) {
 }
 
 console.log("Now you're ready to go outside!");
+
+
+
+//Exercise 3 - Logical Operators (AND)
+const isCitizen = true;
+
+const age = 26;
+
+if (isCitizen && age > 18) {
+  console.log("You are eligible to vote.");
+}
+
+
+//Exercise 4 - Logical Operators (OR)
+if(temperature < -40 || temperature > 40) {
+  console.log("Maybe going outside isn't such a great idea...");
+}
+
+
+//Exercise 5 - Logical Operators (NOT)
+if(!raining) {
+  console.log("Leave your umbrella at home!");
+}
+
 
